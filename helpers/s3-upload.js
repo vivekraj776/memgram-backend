@@ -2,8 +2,8 @@ const AWS = require('aws-sdk');
 const fs = require('fs');
 
 const BUCKET_NAME = 'meme-gram';
-const IAM_USER_KEY = 'AKIAJJBDW4WW5PPIGGDA';
-const IAM_USER_SECRET = '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';
+const IAM_USER_KEY = '';
+const IAM_USER_SECRET = '';
 const s3bucket = new AWS.S3({
   accessKeyId: IAM_USER_KEY,
   secretAccessKey: IAM_USER_SECRET,
